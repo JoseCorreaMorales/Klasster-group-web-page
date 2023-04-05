@@ -13,7 +13,7 @@ $brand-tertiary: #2A528A !default; */
 
 $brand-primary: #F0970F!default;
 $brand-secondary: #FEB501 !default;
-$brand-tertiary: #015AFE !default;
+$brand-tertiary: #3b69c0 !default;
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -186,13 +186,13 @@ h1, h2, h3, h4, h5, h6, figure {
   background: $brand-primary;
 }
 
-.fh5co-nav {
+.klasster-nav {
 	background: $brand-white;
 	.top-menu{
 		padding: 28px 0;
 	}
 
-	#fh5co-logo {
+	#klasster-logo {
 		font-size: 32px;
 		margin: 0;
 		padding: 0;
@@ -336,8 +336,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-counter,
-.fh5co-bg,
+#klasster-counter,
+.klasster-bg,
 .product {
 	background-size: cover;
 	background-position: top center;
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	position: relative;
 }
 
-.fh5co-video {
+.klasster-video {
 	overflow: hidden;
 	@media screen and (max-width: $screen-md){
 		height: 450px;
@@ -402,8 +402,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-header,
-.fh5co-cover {
+#klasster-header,
+.klasster-cover {
 	.display-tc {
 		display: table-cell!important;
 		vertical-align: middle;
@@ -478,7 +478,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-features {
+#klasster-features {
 	// padding: 7em 0;
 	background: $brand-secondary;
 	.services-padding{
@@ -551,7 +551,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-wireframe{
+#klasster-wireframe{
 	border: none !important;
 	blockquote{
 		border: none;
@@ -583,7 +583,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-slider{
+#klasster-slider{
 	background: $brand-tertiary;
 	.heading{
 		h2,p{
@@ -598,7 +598,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-hero {
+#klasster-hero {
 	height: 500px !important;
 	background: url(../images/loader.gif) no-repeat center center;
 	.btn {
@@ -686,33 +686,33 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 
-.fh5co-bg-section{
+.klasster-bg-section{
 	background: rgba($brand-primary,.03);
 }
 
-#fh5co-slider,
-#fh5co-about,
-#fh5co-wireframe,
-#fh5co-started,
-#fh5co-portfolio,
-#fh5co-blog,
-#fh5co-content-section,
-#fh5co-contact,
-#fh5co-footer{
+#klasster-slider,
+#klasster-about,
+#klasster-wireframe,
+#klasster-started,
+#klasster-portfolio,
+#klasster-blog,
+#klasster-content-section,
+#klasster-contact,
+#klasster-footer{
 	padding: 7em 0;
 	clear: both;
 	@media screen and (max-width: $screen-sm) {
 		padding: 3em 0;
 	}
 }
-#fh5co-content{
+#klasster-content{
 	border-bottom: 2px solid rgba($brand-primary,.1);
 }
-#fh5co-started{
+#klasster-started{
 	border-bottom: none;
 }
 
-.fh5co-social-icons {
+.klasster-social-icons {
 	margin: 0;
 	padding: 0;
 	li {
@@ -733,9 +733,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.fh5co-heading {
+.klasster-heading {
 	margin-bottom: 5em;
-	&.fh5co-heading-sm {
+	&.klasster-heading-sm {
 		margin-bottom: 2em;
 	}
 	h2 {
@@ -759,7 +759,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-started {
+#klasster-started {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -776,7 +776,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		background: rgba($brand-primary,1);
 	}
 	
-	.fh5co-heading {
+	.klasster-heading {
 		margin-bottom: 0;
 		h2 {
 			color: $brand-white;
@@ -828,7 +828,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 // BLOG
-.fh5co-blog{
+.klasster-blog{
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
@@ -904,7 +904,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.fh5co-portfolio{
+.klasster-portfolio{
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
@@ -962,7 +962,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 }
 
 
-.fh5co-team{
+.klasster-team{
 	position: relative;
 	background: $brand-white;
 	padding: 30px;
@@ -1029,8 +1029,8 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 	}
 }
 
-#fh5co-footer {
-	.fh5co-footer-links {
+#klasster-footer {
+	.klasster-footer-links {
 		padding: 0;
 		margin: 0;
 		@media screen and (max-width: $screen-sm){
@@ -1049,7 +1049,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 			}
 		}
 	}
-	.fh5co-widget {
+	.klasster-widget {
 		margin-bottom: 30px;
 		@media screen and (max-width: $screen-sm){
 			text-align: left;
@@ -1120,7 +1120,7 @@ input[type="text"] {
 
 
 // off canvas
-#fh5co-offcanvas {
+#klasster-offcanvas {
 	position: absolute;
 	z-index: 1901;
 	width: 270px;
@@ -1230,7 +1230,7 @@ input[type="text"] {
 
 
 // Burger Menu
-.fh5co-nav-toggle {
+.klasster-nav-toggle {
   width:25px;
   height:25px;
   cursor: pointer;
@@ -1266,7 +1266,7 @@ input[type="text"] {
 		  transition:all .2s ease-out;
 	  }
   }
-  &.fh5co-nav-white {
+  &.klasster-nav-white {
   	> i {
   		color:$brand-white;
   		background: $brand-black;
@@ -1277,22 +1277,22 @@ input[type="text"] {
   }
 }
 
-.fh5co-nav-toggle i::before {
+.klasster-nav-toggle i::before {
   top: -7px;
 }
-.fh5co-nav-toggle i::after {
+.klasster-nav-toggle i::after {
   bottom: -7px;
 }
-.fh5co-nav-toggle:hover i::before {
+.klasster-nav-toggle:hover i::before {
   top: -10px;
 }
-.fh5co-nav-toggle:hover i::after {
+.klasster-nav-toggle:hover i::after {
   bottom: -10px;
 }
-.fh5co-nav-toggle.active i {
+.klasster-nav-toggle.active i {
 	background: transparent;
 }
-.fh5co-nav-toggle.active i::before {
+.klasster-nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -1301,7 +1301,7 @@ input[type="text"] {
           transform: rotateZ(45deg);
           background: $brand-white;
 }
-.fh5co-nav-toggle.active i::after {
+.klasster-nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -1310,7 +1310,7 @@ input[type="text"] {
           transform: rotateZ(-45deg);
           background: $brand-white;
 }
-.fh5co-nav-toggle {
+.klasster-nav-toggle {
   position: absolute;
   right: 0px;
   top: 65px;
@@ -1500,7 +1500,7 @@ input[type="text"] {
    margin: 0 !important;
 }
 
-.fh5co-loader {
+.klasster-loader {
 	position: fixed;
 	left: 0px;
 	top: 0px;
