@@ -1,6 +1,8 @@
-$font-primary: 'Inconsolata', Arial, sans-serif;
-
-
+//$font-primary: 'Inconsolata', Arial, sans-serif;
+//$font-secondary: 'Inconsolata', Arial, sans-serif;
+$font-primary: 'Epilogue', sans-serif;
+$font-secondary: 'termina_testregular', sans-serif;
+$font-third: 'termina_testdemi', sans-serif;
 
 // Overrides
 $grid-gutter-width: 40px !default; 
@@ -11,9 +13,9 @@ $padding-base-vertical: 14px !default;
 $brand-secondary: #FEE856 !default;
 $brand-tertiary: #2A528A !default; */
 
-$brand-primary: #F0970F!default;
-$brand-secondary: #FEB501 !default;
-$brand-tertiary: #3b69c0 !default;
+$brand-primary: #F49A0D!default;
+$brand-secondary: #FFB900 !default;
+$brand-tertiary: #0061FF !default;
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -82,7 +84,7 @@ height: 4.2rem;
 	-moz-flex-wrap: wrap; 
 }
 
-@font-face {
+/* @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon/icomoon.eot?srf3rx');
 	src:url('../fonts/icomoon/icomoon.eot?srf3rx#iefix') format('embedded-opentype'),
@@ -91,9 +93,27 @@ height: 4.2rem;
 		url('../fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
+} */
+
+@font-face {
+    font-family: 'termina_testregular';
+    src: url('../fonts/terminal/terminatest-regular-webfont.woff2') format('woff2'),
+         url('../fonts/terminal/terminatest-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-@mixin icomoon() {
+@font-face {
+    font-family: 'termina_testdemi';
+    src: url('../fonts/terminal/terminatest-demi-webfont.woff2') format('woff2'),
+         url('../fonts/terminal/terminatest-demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* @mixin icomoon() {
 	
 	font-family: 'icomoon';
 	speak: none;
@@ -103,10 +123,25 @@ height: 4.2rem;
 	text-transform: none;
 	line-height: 1;
 
-	/* Better Font Rendering =========== */
+	
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	
+} */
+
+@mixin terminal {
+	font-family: 'termina_testregular';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
 }
 
 // Import 
@@ -168,7 +203,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
 	color: $brand-black;
-	font-family: $font-primary;
+	font-family: $font-secondary;
 	font-weight: 400;
 	margin: 0 0 20px 0;
 }
@@ -198,7 +233,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		padding: 0;
 		text-transform: uppercase;
 		font-weight: 700;
-		font-family: $font-primary;
+		font-family: $font-third;
 		a{
 			span{
 				color: $brand-primary;
@@ -492,7 +527,8 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 		.icon {
 			i {
-				font-size: 30px;
+				/* font-size: 30px; */
+				font-size: 25px; 
 				color: darken($brand-white, 90%)!important;
 			}
 		}
@@ -1164,7 +1200,7 @@ input[type="text"] {
 					&:after {
 						position: absolute;
 						right: 0px;
-						@include icomoon;
+						@include terminal();
 						content: "\ebfc";
 						font-size: 20px;
 						color: rgba(255,255,255,.2);
